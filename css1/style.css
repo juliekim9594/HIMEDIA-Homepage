@@ -3,8 +3,10 @@
 
 body{font-family: 'Nanum Gothic', sans-serif;}
 
+/*main header*/
 #main_header{width: 100%;}
 
+/*gnb*/
 #gnb_wrap{width: 100%; height: 30px;
 	border-bottom: 1px solid #dddddd; }
 
@@ -18,8 +20,23 @@ body{font-family: 'Nanum Gothic', sans-serif;}
 #gnb>ul>li>a:hover{color:#818181;}
 #gnb>ul>li:last-child>a{border-right:none; padding-right:0px;}
 
+/*logo*/
 #logo_wrap{width: 980px; margin:0 auto; position: relative;
 	height: 60px; line-height: 60px}
 #logo_wrap>h1{text-align: center; padding: 10px;}
 #logo_wrap>.toggle{position: absolute; right: 0px; top:0px;
 	padding:15px 0px;}
+
+/*main gnb*/
+#main_lnb_wrap{width: 100%; height: 40px; background: #1d5da4;
+	clear: both; margin-top: 15px;}
+#main_lnb{width: 980px; margin:0 auto;}
+#main_lnb>ul{overflow: hidden;}
+#main_lnb>ul>li{float: left;}
+#main_lnb>ul>li>a{display: block; height: 40px;
+	line-height: 40px; width: 162px; color: white;
+	border-right:1px solid #798AB8; /*box-sizing: border-box;*/
+	text-align: center;}
+#main_lnb>ul>li:first-child>a{border-left: 1px solid #798AB8;}
+#main_lnb>ul>li>a:hover{/*background: #0B57A1;*/
+	font-weight: bold;}
