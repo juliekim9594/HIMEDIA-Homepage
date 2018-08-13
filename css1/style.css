@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 
 body{font-family: 'Nanum Gothic', sans-serif;}
+p{font-size:14px; font-weight: normal;}
+h4{padding-left: 20px; padding-top: 15px;}
 
 /*main header*/
 #main_header{width: 100%;}
@@ -40,3 +42,94 @@ body{font-family: 'Nanum Gothic', sans-serif;}
 #main_lnb>ul>li:first-child>a{border-left: 1px solid #798AB8;}
 #main_lnb>ul>li>a:hover{/*background: #0B57A1;*/
 	font-weight: bold;}
+
+/*visual*/
+#visual{ overflow: hidden;
+	background: #1f3767 url(../images/background.jpg) no-repeat;
+	background-position: center;
+	width: 100%; height: 395px;}
+
+#box{width: 980px; margin:0 auto; /*overflow: hidden;*/}
+#box>.bulb{float: right; margin-top:30px;}
+#box>.title{float: left; margin-top:80px;}
+
+/*middle*/
+#middle_lnb{width: 100%; height: 200px; background: #eee;}
+#middle_main_lnb{width: 980px; margin:0 auto;}
+#middle_main_lnb>ul{overflow: hidden; }
+#middle_main_lnb>ul>li{float: left;}
+#middle_main_lnb>ul>li>a{display: block;
+	width: 196px; height: 200px;
+	text-align: center;color: white; font-size:20px;
+	font-weight: bold; line-height: 130%; padding-top: 20px;
+	box-sizing: border-box;}
+#middle_main_lnb>ul>li:first-child{background: #7c99b9;}
+#middle_main_lnb>ul>li:first-child>a:hover{background: #6f8aa8;}
+#middle_main_lnb>ul>li:nth-child(2){background: #4f74a1;}
+#middle_main_lnb>ul>li:nth-child(2)>a:hover{background: #45648b;}
+#middle_main_lnb>ul>li:nth-child(3){background: #4b8ce0;}
+#middle_main_lnb>ul>li:nth-child(3)>a:hover{background: #447fca;}
+#middle_main_lnb>ul>li:nth-child(4){background: #3db5f2;}
+#middle_main_lnb>ul>li:nth-child(4)>a:hover{background: #39a3d9;}
+#middle_main_lnb>ul>li:last-child{background: #95c8ff;}
+#middle_main_lnb>ul>li:last-child>a:hover{background: #87b5e8;}
+
+/*main_article*/
+#main_article{width: 980px; margin:0 auto;}
+#main_article>ul{overflow: hidden;box-sizing: border-box; }
+#main_article>ul>li{float: left; margin-top:40px; margin-right: 22px;
+	border:1px solid #ddd;}
+#main_article>ul>li:last-child{margin-right: 0px;}
+#main_article>ul>li>a{display: block; width: 310px;}
+#main_article>ul>li>a:hover{color: #1d5da4 ;}
+#main_article>ul>li>a>p{padding-left:20px; padding-right:20px;
+	padding-bottom: 20px;
+	padding-top: 5px; font-size: 12px; text-align: justify;}
+	/*white-space:nowrap; overflow:hidden; text-overflow:ellipsis;*/
+
+
+/*sub_article*/
+#sub_article{width: 980px; margin: 0 auto;}
+#sub_article>ul{overflow: hidden; box-sizing: border-box;}
+#sub_article>ul>li{float: left; border:1px solid #ddd;
+	width: 310px; height: 160px; margin-right:22px; margin-top:20px;}
+#sub_article>ul>li:first-child{
+	background: url(../images/imgbg01.jpg) no-repeat right;}
+#sub_article>ul>li:nth-child(2){
+	background: url(../images/imgbg02.jpg) no-repeat right;}
+#sub_article>ul>li:last-child{
+	background: url(../images/imgbg03.jpg) no-repeat right;
+	margin-right:0px;}
+#sub_article>ul>li>a{display: block;}
+#sub_article>ul>li>a>h4{padding-top: 20px}
+#sub_article>ul>li>a>p{padding-left: 20px; padding-top: 20px;
+	font-size: 12px;}
+.link{color: #1d5da4;}
+.link:hover{color: #70A1DF;}
+
+/*footer*/
+#main_footer1{width:100%; height: 40px; margin:0 auto; 
+	background: #4d4d4d; margin-top: 40px;}
+#footer1{width: 980px;height: 40px; 
+	 margin:0 auto;
+	 position: relative;}
+#footer1>ul{overflow: hidden;}
+#footer1>ul>li {float: left;}
+#footer1>ul>li>a {display: block; font-size:12px; color:#ccc;
+	padding-right:20px; /*padding-top: 15px;*/
+	border-right:1px solid #757575; margin-top: 13px;
+	}
+#footer1>ul>li>a:hover{color:#BABABA;}
+#footer1>ul>li:nth-child(2)>a{padding-left: 20px;}
+#footer1>ul>li:last-child>a{padding-left: 20px; border-right: none;}
+#box2>a{text-align:center; font-size:9px; width: 55px;
+	height: 40px; padding-top:10px;
+	color:#ccc; background: #404040;
+	position: absolute; box-sizing: border-box; right: 0; top: 0}
+#box2>a:hover{background: #3D3D3D;}
+
+#main_footer2{width: 100%; height: 100px; background: #5e5e5e;}
+#footer2{width: 980px; margin:0 auto; position: relative;}
+#box3 {padding-top: 35px; color: white;}
+#footer_menu{font-size:12px; color: #ccc;
+	position: absolute; right: 330px; top:14px;}
